@@ -67,6 +67,18 @@ const plugins = [
       // other options...
     },
   },
+  {
+    applicationId: "6B2X1K3XC2",
+    adminApiKey: "ec3070b9ba98434873be05750a9b27f4",
+    settings: {
+      products: {
+        indexSettings: {
+          searchableAttributes: ["title", "description"],
+          attributesToRetrieve: ["title", "description"],
+        },
+      },
+    },
+  },
 ];
 
 const modules = {
